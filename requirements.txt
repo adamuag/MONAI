@@ -1,0 +1,8 @@
+matplotlib==3.10.3
+monai==1.5.0
+monailabel==0.8.5
+tensorboard==2.19.0
+torch==2.8.0+cu129
+torchaudio==2.7.0+cu126
+torchvision==0.23.0+cu129
+tqdm==4.67.1
