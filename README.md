@@ -1,6 +1,6 @@
 # MONAI
 
-Medical image processing examples showing how to get started with MONAILabel and MONAI core.
+Medical image processing examples showing how to get started with MONAILabel and MONAI core. The code and scripts are examples from [SINAPSE webinar]<https://www.sinapse.ac.uk/events/sinapse-webinar-oct-2025/>
 
 ## 1. Install MONAI
 ```bash
