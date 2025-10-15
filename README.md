@@ -1,39 +1,47 @@
 # MONAI
-Medical image processing repository. It shows sample code on how to get started with monailabel and monai core.
 
-### 1. install MONAI
+Medical image processing examples showing how to get started with MONAILabel and MONAI core.
+
+## 1. Install MONAI
 ```bash
-$ pip install monai
-```markdown
-### 2. install MONAILabel
-```bash 
-$ pip install monai label
-```markdown
-### 3. check available apps
-```bash 
-$ monailabel apps
-```markdown
-### 4. Download app
+pip install monai
+```
+
+## 2. Install MONAILabel
 ```bash
-$ monailabel apps --download --name radiology --output apps
-```markdown
-### 5. check available studies
+pip install monailabel
+```
+
+## 3. Check available apps
 ```bash
-$ monailabel datasets
-```markdown
-### 6. Download dataset
+monailabel apps
+```
+
+## 4. Download an app (example: radiology)
 ```bash
-$ monailabel datasets --download --name Task06_Lung --output datasets
-```markdown
-### 7. Start the monailabel server
+monailabel apps --download --name radiology --output apps
+```
+
+## 5. Check available datasets
 ```bash
-$ monailabel start_server --app apps/radiology --studies datasets/Task06_Lung/imagesTr --conf models deepedit
-```markdown
-### 8. Build and run monai server in docker
-check the  dockerhub repo for other versions of monai server.
+monailabel datasets
+```
+
+## 6. Download a dataset (example: Task06_Lung)
 ```bash
-$ ./build_start_server.sh
-```markdown
+monailabel datasets --download --name Task06_Lung --output datasets
+```
+
+## 7. Start the MONAILabel server
+```bash
+monailabel start_server --app apps/radiology --studies datasets/Task06_Lung/imagesTr --conf models deepedit
+```
+
+## 8. Build and run MONAI server in Docker
+Run the provided script (if present) to build the image and start the server:
+```bash
+./build_start_server.sh
+```
 
 
 
