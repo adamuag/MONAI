@@ -38,10 +38,10 @@ monailabel start_server --app apps/radiology --studies datasets/Task06_Lung/imag
 ```
 
 ## 8. Build and run MONAI server in Docker
-Run the provided script (if present) to build the image and start the server:
+Run the provided script to build/download the image and start the server:
 ```bash
 ./build_start_server.sh
 ```
-
+see docker hub repo for more monailabel server: [DockerHub] <https://hub.docker.com/r/adamuag/monai-label-server/tags>
 
 
